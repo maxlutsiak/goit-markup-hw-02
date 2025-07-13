@@ -34,6 +34,10 @@ body {
     color: #404bbf;
 }
 
+.nav_studio:focus {
+    color: #404bbf;
+}
+
 .contact_info {
     font-style: normal;
 }
