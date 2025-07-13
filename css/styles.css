@@ -14,7 +14,7 @@ body {
     color: #4d5ae5;
 }
 
-.span_studio {
+.nav_studio {
     color: #2e2f42;
     font-weight: 500;
     line-height: 1.5;
@@ -26,9 +26,9 @@ body {
     font-style: normal;
 }
 
-contact_email {
+.contact_email {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    
+
 }
