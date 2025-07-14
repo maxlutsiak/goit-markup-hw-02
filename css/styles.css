@@ -60,3 +60,35 @@ body {
 .contact_email:focus {
     color: #404bbf;
 }
+
+.title_section {
+    background-color: #2e2f42;
+}
+
+.title_site {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+
+.button_order {
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.button_order:hover {
+    background-color: #404BBF;
+
+}
+
+.button_order:focus {
+    background-color: #404BBF;
+}
