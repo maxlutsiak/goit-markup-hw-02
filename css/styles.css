@@ -93,7 +93,10 @@ body {
     background-color: #404BBF;
 }
 
-.list_title {
+.service_title_1,
+.service_title_2,
+.service_title_3,
+.service_title_4 {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -101,7 +104,10 @@ body {
     color: #2e2f42;
 }
 
-.paragraph_title {
+.title_strategy,
+.title_punctuality,
+.title_diligence,
+.title_technologies {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
