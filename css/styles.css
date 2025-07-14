@@ -93,7 +93,7 @@ body {
     background-color: #404BBF;
 }
 
-.title_strategy {
+.tlist_title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -101,7 +101,7 @@ body {
     color: #2e2f42;
 }
 
-.paragraph_strategy {
+.paragraph_title {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
