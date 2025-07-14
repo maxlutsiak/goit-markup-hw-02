@@ -93,7 +93,7 @@ body {
     background-color: #404BBF;
 }
 
-.service_title_1 {
+.service_title_strategy {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -101,7 +101,7 @@ body {
     color: #2e2f42;
 }
 
-.service_title_2 {
+.service_title_punctuality {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -109,7 +109,7 @@ body {
     color: #2e2f42;
 }
 
-.service_title_3 {
+.service_title_diligence {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -117,7 +117,7 @@ body {
     color: #2e2f42;
 }
 
-.service_title_4 {
+.service_title_technologies {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -125,22 +125,22 @@ body {
     color: #2e2f42;
 }
 
-.title_paragraph_1 {
+.paragraph_strategy {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
-.title_paragraph_2 {
+.paragraph_punctuality {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
-.title_paragraph_3 {
+.paragraph_diligence {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
-.title_paragraph_4 {
+.paragraph_technologies {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
