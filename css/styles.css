@@ -122,3 +122,17 @@ body {
 .team-card {
     background-color: #FFFFFF;
 }
+
+.title_footer {
+    background-color: #2e2f42;
+}
+
+.footer_studio {
+    color: #f4f4fd;
+}
+
+.par_footer {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+}
