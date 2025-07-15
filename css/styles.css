@@ -4,7 +4,7 @@ body {
     background-color: #FFFFFF;
 }
 
-.logo_nav {
+.logo-nav {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -14,11 +14,11 @@ body {
     color: #4d5ae5;
 }
 
-.span_studio {
+.span-studio {
     color: #2e2f42;
 }
 
-.nav_studio {
+.nav-studio {
     color: #2e2f42;
     font-weight: 500;
     line-height: 1.5;
@@ -26,7 +26,7 @@ body {
     font-size: 16px;
 }
 
-.nav_studio:hover {
+.nav-studio:hover {
     color: #2e2f42;
     font-weight: 500;
     line-height: 1.5;
@@ -34,15 +34,15 @@ body {
     color: #404bbf;
 }
 
-.nav_studio:focus {
+.nav-studio:focus {
     color: #404bbf;
 }
 
-.contact_info {
+.contact-info {
     font-style: normal;
 }
 
-.contact_email {
+.contact-email {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -50,22 +50,22 @@ body {
 
 }
 
-.contact_email:hover {
+.contact-email:hover {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #404bbf;
 }
 
-.contact_email:focus {
+.contact-email:focus {
     color: #404bbf;
 }
 
-.title_section {
+.title-section {
     background-color: #2e2f42;
 }
 
-.title_site {
+.title-site {
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -73,7 +73,7 @@ body {
     color: #ffffff;
 }
 
-.button_order {
+.button-order {
     background-color: #4D5AE5;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -84,16 +84,16 @@ body {
     cursor: pointer;
 }
 
-.button_order:hover {
+.button-order:hover {
     background-color: #404BBF;
 
 }
 
-.button_order:focus {
+.button-order:focus {
     background-color: #404BBF;
 }
 
-.title_service {
+.title-service {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -101,16 +101,16 @@ body {
     color: #2e2f42;
 }
 
-.parag_service {
+.parag-service {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
-.team_section {
+.team-section {
     background-color: #F4F4FD;
 }
 
-.title_team {
+.title-team {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -123,15 +123,15 @@ body {
     background-color: #FFFFFF;
 }
 
-.title_footer {
+.title-footer {
     background-color: #2e2f42;
 }
 
-.footer_studio {
+.footer-studio {
     color: #f4f4fd;
 }
 
-.par_footer {
+.par-footer {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
