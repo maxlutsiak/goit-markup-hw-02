@@ -4,6 +4,14 @@ body {
     background-color: #FFFFFF;
 }
 
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
 .logo-nav {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
