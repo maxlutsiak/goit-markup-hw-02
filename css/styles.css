@@ -157,11 +157,13 @@ nav {
     position: absolute;
     width: 1px;
     height: 1px;
-    padding: 0;
     margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
+    padding: 0;
     border: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(100%);
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 .skills-list {
@@ -175,6 +177,8 @@ nav {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
+    width: calc((100% - 72px) / 4);
 }
 
 .parag-service {
