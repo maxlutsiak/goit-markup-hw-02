@@ -20,8 +20,13 @@ header {
     border-bottom: 1px solid #e7e9fc;
 }
 
-.div-header {
+.header-inner {
+    display: flex;
+}
 
+.container {
+    width: 1158px;
+    padding: 0 15px;
 }
 
 .logo-nav {
@@ -32,7 +37,6 @@ header {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    display: flex;
 }
 
 .span-studio {
