@@ -4,6 +4,10 @@ body {
     background-color: #FFFFFF;
 }
 
+h1 {
+    margin: 0;
+}
+
 a {
     text-decoration: none;
 }
@@ -29,6 +33,7 @@ header {
 
 .header-inner {
     display: flex;
+    align-items: center;
 }
 
 .container {
@@ -70,6 +75,7 @@ nav {
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-size: 16px;
+    display: block;
     padding: 24px 0;
 }
 
@@ -87,6 +93,7 @@ nav {
 
 .contact-info {
     font-style: normal;
+    margin-left: auto;
 }
 
 .contact-list {
@@ -99,6 +106,9 @@ nav {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
 
 }
 
@@ -125,6 +135,7 @@ nav {
     letter-spacing: 0.02em;
     color: #ffffff;
     max-width: 496px;
+    margin: 0 auto;
 }
 
 .button-order {
