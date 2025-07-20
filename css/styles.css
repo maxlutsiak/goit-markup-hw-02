@@ -211,6 +211,20 @@ nav {
 
 .team-card {
     background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.team-info {
+    padding: 32px 0;
+}
+
+.title-service {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.parag-service {
+    text-align: center;
 }
 
 .title-footer {
