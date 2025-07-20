@@ -172,7 +172,7 @@ nav {
 }
 
 .skills-item {
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .title-service {
@@ -191,6 +191,7 @@ nav {
 
 .team-section {
     background-color: #F4F4FD;
+    padding: 120px 0;
 }
 
 .title-team {
@@ -200,6 +201,12 @@ nav {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
+}
+
+.team-list {
+    display: flex;
+    gap: 24px;
 }
 
 .team-card {
