@@ -196,10 +196,6 @@ nav {
     padding: 120px 0;
 }
 
-.portfolio-section {
-    padding: 120px 0 120px 0;
-}
-
 .title-team {
     font-size: 36px;
     line-height: 1.11;
@@ -213,6 +209,10 @@ nav {
 .team-list {
     display: flex;
     gap: 24px;
+}
+
+.portfolio-section {
+    padding: 120px 0 120px 0;
 }
 
 .portfolio-list {
