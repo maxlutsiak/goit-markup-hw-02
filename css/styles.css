@@ -53,7 +53,6 @@ nav {
 .nav-list {
     display: flex;
     gap: 40px;
-    padding: 24px 0;
 }
 
 .nav-studio {
@@ -62,6 +61,7 @@ nav {
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-size: 16px;
+    padding: 24px 0;
 }
 
 .nav-studio:hover {
@@ -78,6 +78,11 @@ nav {
 
 .contact-info {
     font-style: normal;
+}
+
+.contact-list {
+    display: flex;
+    gap: 40px;
 }
 
 .contact-email {
