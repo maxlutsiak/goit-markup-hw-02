@@ -4,7 +4,12 @@ body {
     background-color: #FFFFFF;
 }
 
-h1 {
+h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+}
+
+p {
     margin: 0;
 }
 
@@ -135,6 +140,7 @@ nav {
     letter-spacing: 0.02em;
     color: #ffffff;
     max-width: 496px;
+    margin-bottom: 48px;
     margin: 0 auto;
 }
 
@@ -154,6 +160,7 @@ nav {
     background-color: #4d5ae5;
     border-radius: 4px;
     cursor: pointer;
+    margin: 0 auto;
 }
 
 .button-order:hover {
@@ -248,10 +255,17 @@ nav {
 
 .app-name {
     margin-bottom: 8px;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
 }
 
 .app-category {
-
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate);
 }
 
 .team-card {
