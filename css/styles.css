@@ -291,6 +291,10 @@ nav {
     padding: 100px 0;
 }
 
+.div > a {
+    margin-bottom: 16px;
+}
+
 .footer-studio {
     color: #f4f4fd;
 }
