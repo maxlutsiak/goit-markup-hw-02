@@ -97,8 +97,6 @@ nav {
 
 .contact-info {
     font-style: normal;
-    padding-top: 24px;
-    padding-bottom: 24px;
     margin-left: auto;
 }
 
@@ -141,7 +139,7 @@ nav {
     letter-spacing: 0.02em;
     color: #ffffff;
     max-width: 496px;
-    margin: 0 auto;
+    margin: 0 auto 48px;
 }
 
 .button-order {
@@ -161,7 +159,6 @@ nav {
     border-radius: 4px;
     cursor: pointer;
     margin: 0 auto;
-    margin-top: 48px;
 }
 
 .button-order:hover {
@@ -279,12 +276,11 @@ nav {
     padding: 32px 0;
 }
 
-.title-service {
+.title-service-name {
     text-align: center;
-    margin-bottom: 8px;
 }
 
-.parag-service {
+.parag-service-role {
     text-align: center;
 }
 
@@ -293,7 +289,7 @@ nav {
     padding: 100px 0;
 }
 
-footer a {
+.logo-footer {
     margin-bottom: 16px;
 }
 
