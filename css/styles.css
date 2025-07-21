@@ -141,7 +141,6 @@ nav {
     letter-spacing: 0.02em;
     color: #ffffff;
     max-width: 496px;
-    margin-bottom: 48px;
     margin: 0 auto;
 }
 
@@ -162,6 +161,7 @@ nav {
     border-radius: 4px;
     cursor: pointer;
     margin: 0 auto;
+    margin-top: 48px;
 }
 
 .button-order:hover {
