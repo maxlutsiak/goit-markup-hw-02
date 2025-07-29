@@ -88,6 +88,17 @@ nav {
     padding: 24px 0;
 }
 
+.nav-studio.active::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 100%;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px;
+}
+
 .nav-studio:hover {
     color: #2e2f42;
     font-weight: 500;
