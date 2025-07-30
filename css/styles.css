@@ -309,7 +309,8 @@ nav {
 }
 
 .team-info {
-    padding: 32px 0;
+    padding-top: 32px;
+    padding-bottom: 8px;
 }
 
 .title-service-name {
@@ -325,6 +326,7 @@ nav {
     display: flex;
     justify-content: center;
     gap: 24px;
+    padding-bottom: 32px;
 }
 
 .social-item {
@@ -349,7 +351,7 @@ nav {
 }
 
 .social-icon {
-    
+
 }
 
 .icon-box {
