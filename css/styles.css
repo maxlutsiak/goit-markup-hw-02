@@ -598,7 +598,7 @@ nav {
     border: none;
 }
 
-.modal-icon-close {
+.svg-close {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -647,4 +647,12 @@ nav {
 
 .input-svg:focus {
     border-color: #4D5AE5;
+}
+
+.svg-person {
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
