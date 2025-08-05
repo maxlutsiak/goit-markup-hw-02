@@ -667,6 +667,10 @@ nav {
     border-color: #4D5AE5;
 }
 
+.input-svg:focus + .svg-person {
+    fill: #4D5AE5;
+}
+
 .svg-person {
     position: absolute;
     left: 16px;
