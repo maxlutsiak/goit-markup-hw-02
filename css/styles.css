@@ -729,6 +729,7 @@ nav {
 
 .check-box-link {
     color: #4d5ae5;
+    cursor: pointer;
 }
 
 .label-span {
@@ -741,6 +742,7 @@ nav {
     align-items: center;
     justify-content: center;
     fill: transparent;
+    cursor: pointer;
 }
 
 input:checked+label .label-span {
