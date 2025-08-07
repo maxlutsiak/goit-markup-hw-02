@@ -592,6 +592,10 @@ nav {
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.modal-overlay:not(.is-open) .modal {
+    transform: translate(-50%, -50%) scale(1.5);
+}
+
 .modal-button {
     position: absolute;
     top: 24px;
