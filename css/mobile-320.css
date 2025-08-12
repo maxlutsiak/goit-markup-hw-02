@@ -1,4 +1,4 @@
-@media screen and (max-width: 320px) {
+@media (min-width: 320px) {
 
     .container {
         max-width: 100%;
@@ -13,8 +13,9 @@
     nav,
     .nav-list,
     .contact-list {
+        display: flex;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         gap: 12px;
     }
 
@@ -37,6 +38,10 @@
         padding: 12px 0;
     }
 
+    .title-service {
+        text-align: center;
+    }
+
     .title-section {
         padding: 60px 0;
         height: auto;
@@ -54,6 +59,10 @@
         font-size: 14px;
     }
 
+    .skills-section {
+        padding: 15px 0;
+    }
+
     .skills-list {
         flex-direction: column;
         gap: 20px;
@@ -61,6 +70,14 @@
 
     .skills-item {
         width: 100%;
+    }
+
+    .title-team {
+        margin: 0 0 15px;
+    }
+
+    .team-section {
+        padding: 15px 0;
     }
 
     .team-list {
@@ -79,10 +96,14 @@
         max-width: 100%;
         height: auto;
         object-fit: cover;
-    }
+        }
 
     .social-list {
         gap: 16px;
+    }
+
+    .portfolio-section {
+        padding: 15px 0;
     }
 
     .portfolio-list {
@@ -92,6 +113,10 @@
 
     .portfolio-item {
         width: 100%;
+    }
+
+    .footer {
+        padding: 25px 0;
     }
 
     .footer-wrap {
@@ -139,9 +164,11 @@
     .parag-service,
     .app-category {
         font-size: 14px;
+        text-align: center;
     }
 
     .app-name {
         font-size: 16px;
+        text-align: center;
     }
 }
