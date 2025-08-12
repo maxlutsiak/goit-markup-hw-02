@@ -1,0 +1,166 @@
+@media screen and (max-width: 768px) {
+
+    .container {
+        max-width: 100%;
+        padding: 0 15px;
+    }
+
+    /*
+    .header-inner,
+    nav,
+    .nav-list,
+    .contact-list {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+    } */
+
+    .nav-list {
+        gap: 20px;
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+
+    .nav-studio {
+
+    }
+
+    .logo-nav {
+        margin-right: 20px;
+        padding: 16px 0;
+    }
+
+    .contact-info {
+        margin-left: 0;
+    }
+
+    .contact-list {
+        gap: 13px;
+    }
+
+    .title-section {
+        padding: 150px 0;
+        height: auto;
+    }
+
+    .title-team {
+        margin-bottom: 40px;
+    }
+
+    .title-service {
+        text-align: center;
+    }
+
+    .parag-service {
+        text-align: center;
+    }
+
+    .title-site {
+        font-size: 28px;
+        max-width: 100%;
+        padding: 0 10px;
+        margin-bottom: 24px;
+    }
+
+    .button-order {
+        min-width: 150px;
+        height: 48px;
+        font-size: 14px;
+    }
+
+    .skills-section {
+        padding: 40px 0;
+    }
+
+    .skills-list {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .skills-item {
+        width: 100%;
+    }
+
+    .team-section {
+        background-color: #F4F4FD;
+        padding: 40px 0;
+        }
+
+    .team-list {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .team-card {
+        width: 100%;
+        
+    }
+
+    .team-img {
+        margin: 0 auto;
+    }
+
+    .social-list {
+        gap: 60px;
+    }
+
+    .portfolio-section {
+        padding: 40px 0 0;
+    }
+
+    .portfolio-list {
+        flex-direction: column;
+        row-gap: 32px;
+    }
+
+    .portfolio-item {
+        width: 100%;
+    }
+
+    .app-name {
+        text-align: center;
+    }
+
+    .app-category {
+        text-align: center;
+    }
+
+    .footer {
+        padding: 30px 0;
+    }
+
+    .footer-wrap {
+        flex-direction: column;
+        gap: 32px;
+        align-items: flex-start;
+    }
+
+    .footer-logo-wrap,
+    .subscribe-container {
+        margin: 0;
+    }
+
+    .subscribe-form {
+        flex-direction: column;
+        gap: 16px;
+        width: 100%;
+    }
+
+    .subscribe-input,
+    .subscribe-button {
+        width: 100%;
+    }
+
+    .modal {
+        width: 95%;
+        padding: 40px 16px 16px;
+    }
+
+    .modal-title {
+        font-size: 14px;
+    }
+
+    .button-send {
+        width: 100%;
+    }
+}

@@ -1,0 +1,147 @@
+@media screen and (max-width: 320px) {
+
+    .container {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .header-inner,
+    nav,
+    .nav-list,
+    .contact-list {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
+
+    .logo-nav {
+        margin-right: 0;
+        font-size: 16px;
+    }
+
+    .nav-studio {
+        font-size: 14px;
+        padding: 12px 0;
+    }
+
+    .contact-info {
+        margin-left: 0;
+    }
+
+    .contact-email {
+        font-size: 14px;
+        padding: 12px 0;
+    }
+
+    .title-section {
+        padding: 60px 0;
+        height: auto;
+    }
+
+    .title-site {
+        font-size: 24px;
+        padding: 0 5px;
+        margin-bottom: 20px;
+    }
+
+    .button-order {
+        min-width: 140px;
+        height: 44px;
+        font-size: 14px;
+    }
+
+    .skills-list {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .skills-item {
+        width: 100%;
+    }
+
+    .team-list {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .team-card {
+        width: 100%;
+        height: auto;
+    }
+
+    .team-img {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .social-list {
+        gap: 16px;
+    }
+
+    .portfolio-list {
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .portfolio-item {
+        width: 100%;
+    }
+
+    .footer-wrap {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px;
+    }
+
+    .footer-logo-wrap,
+    .subscribe-container {
+        margin: 0;
+    }
+
+    .subscribe-form {
+        flex-direction: column;
+        gap: 12px;
+        width: 100%;
+    }
+
+    .subscribe-input,
+    .subscribe-button {
+        width: 100%;
+    }
+
+    .subscribe-button {
+        font-size: 14px;
+        height: 44px;
+    }
+
+    .modal {
+        width: 95%;
+        padding: 32px 12px;
+    }
+
+    .modal-title {
+        font-size: 14px;
+    }
+
+    .button-send {
+        width: 100%;
+        font-size: 14px;
+        height: 44px;
+    }
+
+    .parag-service,
+    .app-category {
+        font-size: 14px;
+    }
+
+    .app-name {
+        font-size: 16px;
+    }
+}
