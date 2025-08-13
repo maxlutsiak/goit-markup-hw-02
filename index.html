@@ -14,8 +14,6 @@
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
-    <link rel="stylesheet" href="./css/mobile-320.css">
-    <link rel="stylesheet" href="./css/tablet-768.css">
 </head>
 
 <body>
@@ -23,7 +21,7 @@
     <header class="header">
         <div class="header-inner container">
             <nav class="nav">
-                <a href="./index.html" class="logo-nav">Web<span class="span-studio">Studio</span></a>
+                <a href="./index.html" class="logo-nav logo">Web<span class="span-studio">Studio</span></a>
                 <ul class="nav-list">
                     <li><a href="./index.html" class="nav-studio current">Studio</a></li>
                     <li><a href="" class="nav-studio">Portfolio</a></li>
@@ -40,16 +38,87 @@
                     </li>
                 </ul>
             </address>
+            <button class="burger-btn" type="button" data-menu-open>
+                <svg class="burger-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-burger"></use>
+                </svg>
+            </button>
         </div>
+        <!-- mobile menu -->
+        <div class="mobile-menu" data-menu>
+            <div class="container mobile-menu-container">
+                <button type="button" class="mobile-menu-close" data-menu-close>
+                    <svg class="mobile-menu" width="8" height="8">
+                        <use href="./images/icons.svg#icon-close-1"></use>
+                    </svg>
+                </button>
+                <nav class="mobile-menu-nav">
+                    <ul class="mobile-menu-list">
+                        <li>
+                            <a class="menu-mobile-link current">Studio</a>
+                        </li>
+                        <li>
+                            <a class="menu-mobile-link">Portfolio</a>
+                        </li>
+                        <li>
+                            <a class="menu-mobile-link">Contacts</a>
+                        </li>
+                    </ul>
+                </nav>
+                <address class="menu-contact-info">
+                    <ul class="menu-contact-list">
+                        <li>
+                            <a class="menu-contact-link current" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                        </li>
+                        <li>
+                            <a class="menu-contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                        </li>
+                    </ul>
+                </address>
+                <div>
+                    <ul class="social-list-mobile">
+                        <li class="social-item-mobile">
+                            <a href="#icon-instagram" class="social-link-mobile">
+                                <svg class="social-icon-mobile" width="24" height="24">
+                                    <use href="./images/icons.svg#icon-instagram-team"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social-item-mobile">
+                            <a href="#icon-twitter" class="social-link-mobile">
+                                <svg class="social-icon-mobile" width="24" height="24">
+                                    <use href="./images/icons.svg#icon-twitter-team"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social-item-mobile">
+                            <a href="#icon-facebook" class="social-link-mobile">
+                                <svg class="social-icon-mobile" width="24" height="24">
+                                    <use href="./images/icons.svg#icon-facebook-team"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social-item-mobile">
+                            <a href="#icon-linkedin" class="social-link-mobile">
+                                <svg class="social-icon-mobile" width="24" height="24">
+                                    <use href="./images/icons.svg#icon-linkedin-team"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- mobile menu -->
     </header>
     <main>
-        <section class="title-section">
+        <section class="title-section hidden">
             <div class="container">
                 <h1 class="title-site">Effective Solutions for Your Business</h1>
                 <button class="button-order" type="button" data-modal-open>Order Service</button>
             </div>
         </section>
-        <section class="skills-section">
+        <section class="skills-section hidden">
             <div class="container">
                 <h2 class="visually-hidden">Our Services</h2>
                 <ul class="skills-list">
@@ -100,7 +169,7 @@
                 </ul>
             </div>
         </section>
-        <section class="team-section">
+        <section class="team-section hidden">
             <div class="container">
                 <h2 class="title-team">Our Team</h2>
                 <ul class="team-list">
@@ -257,7 +326,7 @@
                 </ul>
             </div>
         </section>
-        <section class="portfolio-section">
+        <section class="portfolio-section hidden">
             <div class="container">
                 <h2 class="title-team">Our Portfolio</h2>
                 <ul class="portfolio-list">
@@ -349,10 +418,10 @@
             </div>
         </section>
     </main>
-    <footer class="footer">
+    <footer class="footer hidden">
         <div class="container footer-wrap">
             <div class="footer-logo-wrap">
-                <a href="./index.html" class="logo-nav">Web<span class="footer-studio">Studio</span></a>
+                <a href="./index.html" class="logo-nav footer-link">Web<span class="footer-studio">Studio</span></a>
                 <p class="footer-text">
                     Increase the flow of customers and sales for your business with digital marketing & growth
                     solutions.
@@ -407,7 +476,10 @@
             </div>
         </div>
     </footer>
-    <div class="modal-overlay" data-modal>
+
+    <!-- modal -->
+
+    <div class="modal-overlay hidden" data-modal>
         <div class="modal">
             <button type="button" class="modal-button" data-modal-close>
                 <svg class="svg-close" width="8" height="8">
@@ -467,6 +539,7 @@
         </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
 </body>
 
 </html>
