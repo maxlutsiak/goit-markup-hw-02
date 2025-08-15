@@ -228,7 +228,7 @@ header {
 
 /* header finish */
 
-/*hero*/
+/* hero start */
 
 .title-section {
     background-size: cover;
@@ -285,6 +285,122 @@ header {
 .button-order:focus {
     background-color: #404BBF;
 }
+
+/* hero finish */
+
+/* skills-section start */
+
+.skills-section {
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+.skills-list {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 72px;
+}
+
+.icon-box {
+    display: none;
+}
+
+.title-service {
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+}
+
+.parag-service {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.skills-list {
+    column-gap: 24px;
+    flex-wrap: wrap;
+}
+
+/* skills-section finish */
+
+/* team-section start */
+
+.team-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 96px;
+    background-color: #F4F4FD;
+}
+
+.title-team {
+    margin-bottom: 72px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2E2F42;
+}
+
+.team-card {
+    width: 264px;
+    height: 428px;
+    margin-bottom: 72px;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+
+.title-service-name {
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 8px;
+}
+
+.parag-service-role {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.social-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.social-item {
+    width: 40px;
+    height: 40px;
+}
+
+.social-link {
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+}
+
+/* team-section finish */
 
 /* mobile menu start*/
 
@@ -562,13 +678,14 @@ input:checked+label .label-span {
 
 /* modal finish*/
 
-/* tablet */
+/* tablet start */
 
 @media screen and (min-width: 768px) {
     .container {
         max-width: 768px;
     }
     .title-section {
+        box-shadow: none;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/tablet-hero.jpg);
         max-width: 1158px;
         height: 436px;
@@ -586,12 +703,43 @@ input:checked+label .label-span {
         width: 408px;
         height: 594px;
     }
-        .label-span {
-            margin-bottom: 2px;
-        }
+    .label-span {
+        margin-bottom: 2px;
+    }
+
+    .skills-section {
+        padding-bottom: 0;
+    }
+
+    .skills-list {
+        flex-direction: row;
+    }
+
+    .skills-item {
+        width: calc((100% - 48px) / 2);
+    }
+    .icon-box {
+        display: none;
+    }
+    .title-service {
+        text-align: start;
+        margin-bottom: 8px;
+    }
+    .parag-service {
+        margin-bottom: 72px;
+    }
+    .team-section {
+        padding-top: 120PX;
+    }
+    .team-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+        justify-content: center;
+    }
 }
 
-/* tablet */
+/* tablet finish */
 
 @media screen and (min-width: 1158px) {
     .container {
@@ -699,6 +847,51 @@ input:checked+label .label-span {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
+    }
+
+    .title-section {
+        height: 496px;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name.jpg);
+    }
+    .title-site {
+        margin-bottom: 48px;
+    }
+    .skills-section {
+        padding-top: 0;
+    }
+    .skills-list {
+        display: flex;
+        margin-top: 120px;
+    }
+    .skills-item {
+        width: calc((100% - 3 * 24px) / 4);
+    }
+    .icon-box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 112px;
+        background-color: #f4f4fd;
+        border-radius: 4px;
+        border: 1px solid #8e8f99;
+        margin-bottom: 8px;
+    }
+    .title-service {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+    }
+    .parag-service {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        margin-bottom: 120px;
+    }
+    .team-card {
+        margin-bottom: 120px;
     }
 }
 
