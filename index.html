@@ -118,7 +118,7 @@
                 <button class="button-order" type="button" data-modal-open>Order Service</button>
             </div>
         </section>
-        <section class="skills-section">
+        <section class="skills-section hidden">
             <div class="container">
                 <h2 class="visually-hidden">Our Services</h2>
                 <ul class="skills-list">
@@ -169,7 +169,7 @@
                 </ul>
             </div>
         </section>
-        <section class="team-section">
+        <section class="team-section hidden">
             <div class="container">
                 <h2 class="title-team">Our Team</h2>
                 <ul class="team-list">
@@ -326,7 +326,7 @@
                 </ul>
             </div>
         </section>
-        <section class="portfolio-section">
+        <section class="portfolio-section hidden">
             <div class="container">
                 <h2 class="title-team portf">Our Portfolio</h2>
                 <ul class="portfolio-list">
@@ -418,7 +418,7 @@
             </div>
         </section>
     </main>
-    <footer class="footer">
+    <footer class="footer hidden">
         <div class="container footer-wrap">
             <div class="footer-logo-wrap">
                 <a href="./index.html" class="logo-nav footer-link">Web<span class="footer-studio">Studio</span></a>
@@ -479,7 +479,7 @@
 
     <!-- modal -->
 
-    <div class="modal-overlay hidden" data-modal>
+    <div class="modal-overlay" data-modal>
         <div class="modal">
             <button type="button" class="modal-button" data-modal-close>
                 <svg class="svg-close" width="8" height="8">
@@ -530,8 +530,11 @@
                                 <use href="./images/icons.svg#icon-check-mark-1"></use>
                             </svg>
                         </span>
-                        I accept the terms and conditions of the
-                        <a class="check-box-link">Privacy Policy</a>
+                        <span class="check-box-text">
+                            I accept the terms and conditions of the
+                            <a href="#" class="check-box-link">Privacy
+                                Policy</a>
+                        </span>
                     </label>
                 </div>
                 <button class="button-send" type="button">Send</button>
