@@ -420,10 +420,6 @@ header {
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
-.overlay-text {
-    display: none;
-}
-
 .app-container {
     padding-top: 32px;
 }
@@ -882,6 +878,12 @@ input:checked+label .label-span {
 
 /* computer start */
 
+@media screen and (max-width: 1157px) {
+    .overlay-text {
+        display: none;
+    }
+}
+
 @media screen and (min-width: 1158px) {
     .logo {
         margin-right: 76px;
@@ -976,6 +978,7 @@ input:checked+label .label-span {
         height: auto;
     }
     .overlay-text {
+        display: block;
         position: absolute;
         top: 0;
         left: 0;
