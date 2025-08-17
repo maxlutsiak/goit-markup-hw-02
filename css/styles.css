@@ -68,6 +68,9 @@ button {
 }
 
 .mobile-menu-close {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     top: 24px;
     right: 24px;
@@ -90,7 +93,6 @@ button {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.mobile-menu:hover,
 .mobile-menu:focus {
     fill: #ffffff;
 }
@@ -108,7 +110,6 @@ button {
     justify-content: flex-start;
     flex-direction: column;
     gap: 40px;
-    margin-bottom: 168px;
 }
 
 .menu-mobile-link.current {
@@ -231,13 +232,11 @@ header {
 /* hero start */
 
 .title-section {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     background-color: #2e2f42;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/dark-bg.jpg);
-    max-width: 767px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url(../images/dark-bg.jpg);
+    max-width: 320px;
     margin: 0 auto;
     height: 432px;
     display: flex;
@@ -246,13 +245,20 @@ header {
     text-align: center;
 }
 
+@media (min-resolution: 192dpi) {
+    .title-section {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+            url(../images/hero/hero-tab-min.jpg), url(../images/hero/hero-tab@2x-min.jpg);
+    }
+} 
+
 .title-site {
     font-weight: 700;
     font-size: 36px;
     color: white;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
-    margin: 72px 52px;
+    padding: 0 52px 72px 52px;
 }
 
 .button-order {
@@ -271,7 +277,6 @@ header {
     background-color: #4d5ae5;
     border-radius: 4px;
     cursor: pointer;
-    margin-bottom: 72px;
     margin-left: auto;
     margin-right: auto;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -334,11 +339,7 @@ header {
 /* team-section start */
 
 .team-section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 96px 0 45px 0;
+    padding: 96px 0 96px 0;
     background-color: #F4F4FD;
 }
 
@@ -352,10 +353,14 @@ header {
     color: #2E2F42;
 }
 
+.team-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 72px;
+}
+
 .team-card {
-    width: 264px;
-    height: 428px;
-    margin-bottom: 72px;
     border-radius: 0 0 4px 4px;
     background-color: #fff;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
@@ -363,8 +368,10 @@ header {
 
 .title-service-name {
     text-align: center;
-    margin-top: 32px;
-    margin-bottom: 8px;
+}
+
+.team-info {
+    padding: 32px 0;
 }
 
 .parag-service-role {
@@ -374,6 +381,10 @@ header {
     letter-spacing: 0.02em;
     text-align: center;
     margin-bottom: 8px;
+}
+
+.social {
+    margin: 72px 56px;
 }
 
 .social-list {
@@ -416,24 +427,20 @@ header {
 }
 
 .portfolio-item {
-    padding-bottom: 32px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .app-container {
-    padding-top: 32px;
+    padding: 32px 16px;
 }
 
 .app-name {
-    margin-left: 16px;
-    margin-bottom: 8px;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
 
 .app-category {
-    margin-left: 16px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -447,8 +454,8 @@ header {
     background-color: #2E2F42;
 }
 
-.footer-logo-wrap {
-    padding-top: 96px;
+.footer-wrap {
+    padding: 96px 0;
 }
 
 .footer-logo-wrap a {
@@ -461,7 +468,8 @@ header {
 }
 
 .footer-text {
-    padding-top: 16px;
+    margin-top: 16px;
+    margin-left: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
@@ -469,10 +477,9 @@ header {
 }
 
 .social-title-footer {
+    margin-bottom: 16px;
     display: flex;
     justify-content: center;
-    padding-top: 72px;
-    padding-bottom: 16px;
     color: #FFFFFF;
 }
 
@@ -488,7 +495,7 @@ header {
     display: flex;
     justify-content: center;
     flex-direction: row;
-    gap: 24px;
+    gap: 16px;
 }
 
 .social-link-footer {
@@ -502,18 +509,14 @@ header {
 }
 
 .subscribe-text {
+    margin-bottom: 16px;
     display: flex;
     justify-content: center;
-    padding-top: 72px;
-    padding-bottom: 16px;
     color: #FFFFFF;
 }
 
-.subscribe-form {
-    padding-bottom: 96px;
-}
-
 .subscribe-input {
+    display: block;
     width: 288px;
     height: 40px;
     border: 1px solid #fff;
@@ -523,6 +526,9 @@ header {
     line-height: 2;
     letter-spacing: 0.04em;
     padding-left: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 16px;
     opacity: 0.3;
     border-radius: 4px;
     color: #ffffff;
@@ -536,7 +542,6 @@ header {
     display: flex;
     align-items: center;
     gap: 16px;
-    margin-top: 16px;
     border-radius: 4px;
     padding: 8px 24px;
     width: 165px;
@@ -823,22 +828,26 @@ input:checked+label .label-span {
 
 /* tablet start */
 
+
 @media screen and (min-width: 768px) {
     .container {
         max-width: 768px;
     }
+    
     .title-section {
         box-shadow: none;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/tablet-hero.jpg);
-        max-width: 1158px;
-        height: 436px;
+        max-width: 768px;
+    }
+    
+    .title-section {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/hero-tab-min.jpg), url(../images/hero/hero-tab@2x-min.jpg);
     }
     .title-site {
         font-size: 56px;
-        line-height: 1.07143;
+        line-height: 1.1;
         text-align: center;
-        max-width: 496px;
-        margin-bottom: 36px;
+        padding: 0 100px 36px 100px;
     }
     
     .modal {
@@ -850,16 +859,12 @@ input:checked+label .label-span {
         margin-bottom: 2px;
     }
 
-    .skills-section {
-        padding-bottom: 0;
-    }
-
     .skills-list {
         flex-direction: row;
     }
 
     .skills-item {
-        width: calc((100% - 48px) / 2);
+        width: calc((100% - 24px) / 2);
     }
     .icon-box {
         display: none;
@@ -869,36 +874,40 @@ input:checked+label .label-span {
         margin-bottom: 8px;
     }
     .parag-service {
-        margin-bottom: 72px;
+        margin-bottom: 0;
     }
     .team-section {
-        padding-top: 120px;
+        padding-top: 96px;
     }
     .team-list {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 24px;
-        justify-content: center;
+        column-gap: 24px;
+        row-gap: 64px;
     }
     .portfolio-list {
         justify-content: center;
         column-gap: 24px;
-        row-gap: 72px;
+        row-gap: 64px;
     }
     .portfolio-item {
-        width: calc((100% - 48px) / 2);
+        width: calc((100% - 24px) / 2);
     }
     .footer-wrap {
         display: flex;
         flex-wrap: wrap;
-        margin-left: 108px;
+        padding: 96px 0;
+        padding-left: 108px;
         column-gap: 24px;
     }
     .footer-logo-wrap a {
         justify-content: start;
     }
+    .footer-text {
+        margin-left: 0;
+    }
+    .social {
+        margin: 0;
+    }
     .social-title-footer {
-        padding-top: 96px;
         justify-content: start;
         font-weight: 500;
         font-size: 16px;
@@ -911,17 +920,24 @@ input:checked+label .label-span {
     .subscribe-button {
         margin-top: 0;
     }
+    .subscribe-container {
+        margin-top: 72px;
+    }
     .subscribe-text {
         justify-content: start;
         font-weight: 500;
     }
     .subscribe-form {
         display: flex;
-        align-items: end;
-        gap: 24px;
     }
     .subscribe-input {
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 0;
         width: 264px;
+    }
+    .subscribe-button {
+        margin-left: 24px;
     }
 }
 
@@ -1042,19 +1058,25 @@ input:checked+label .label-span {
     }
 
     .title-section {
-        padding: 0;
-        height: 496px;
+        max-width: 1440px;
+        height: 600px;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name.jpg);
     }
+        .title-section {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/hero-desk-min.jpg), url(../images/hero/hero-desk@2x-min.jpg);
+        }
     .title-site {
-        margin-bottom: 48px;
+        max-width: 496px;
+        padding: 0 0 48px 0;
     }
     .skills-section {
         padding-top: 0;
+        padding-bottom: 0;
     }
     .skills-list {
         display: flex;
-        margin-top: 120px;
+        padding-top: 120px;
+        padding-bottom: 120px;
     }
     .skills-item {
         width: calc((100% - 3 * 24px) / 4);
@@ -1076,13 +1098,6 @@ input:checked+label .label-span {
         letter-spacing: 0.02em;
         color: #2E2F42;
     }
-    .parag-service {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        margin-bottom: 120px;
-    }
     .team-section {
         padding-bottom: 0;
     }
@@ -1096,9 +1111,10 @@ input:checked+label .label-span {
         row-gap: 40px;
     }
     .portfolio-item {
+        border: 1px solid #E7E9FC;
+        box-shadow: none;
         padding: 0;
         width: calc((100% - 48px) / 3);
-        transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
         cursor: pointer;
         background-color: #fff;
     }
@@ -1107,8 +1123,9 @@ input:checked+label .label-span {
     }
     .portfolio-item:hover {
         box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-        0px 1px 1px rgba(46, 47, 66, 0.16),
-        0px 2px 1px rgba(46, 47, 66, 0.08);
+            0px 1px 1px rgba(46, 47, 66, 0.16),
+            0px 2px 1px rgba(46, 47, 66, 0.08);
+        ;
     }
     .img-wrapper {
         position: relative;
@@ -1146,20 +1163,21 @@ input:checked+label .label-span {
         background-color: #2E2F42;
     }
     .footer-wrap {
+        justify-content: center;
+        padding: 96px 0;
         margin: 0 auto;
         column-gap: 0;
     }
     .footer-logo-wrap {
-        padding-top: 100px;
+        
     }
     .social {
         margin-left: 120px;
     }
     .social-title-footer {
-        padding-top: 100px;
+
     }
     .subscribe-text {
-        padding-top: 100px;
     }
     .subscribe-button {
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -1170,6 +1188,7 @@ input:checked+label .label-span {
     }
     .subscribe-container {
         margin-left: 80px;
+        margin-top: 0;
     }
     .social-link {
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
