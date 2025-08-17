@@ -235,7 +235,7 @@ header {
     background-color: #2e2f42;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url(../images/dark-bg.jpg);
+        url(../images/dark-bg.jpg);
     max-width: 320px;
     margin: 0 auto;
     height: 432px;
@@ -248,7 +248,7 @@ header {
 @media (min-resolution: 192dpi) {
     .title-section {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-            url(../images/hero/hero-tab-min.jpg), url(../images/hero/hero-tab@2x-min.jpg);
+            url(../images/hero/hero-mob-min.jpg), url(../images/hero/hero-mob@2x-min.jpg);
     }
 } 
 
