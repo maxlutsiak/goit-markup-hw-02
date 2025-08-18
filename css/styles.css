@@ -241,7 +241,8 @@ header {
     background-position: center;
     max-width: 320px;
     margin: 0 auto;
-    height: 432px;
+    padding-top: 72px;
+    padding-bottom: 72px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -256,12 +257,13 @@ header {
 } 
 
 .title-site {
+    max-width: 216px;
+    margin-bottom: 72px;
     font-weight: 700;
     font-size: 36px;
     color: white;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    padding: 0 52px 72px 52px;
 }
 
 .button-order {
@@ -370,7 +372,12 @@ header {
 }
 
 .title-service-name {
+    margin-bottom: 8px;
     text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
 .team-info {
@@ -387,7 +394,7 @@ header {
 }
 
 .social {
-    margin: 72px 56px;
+    margin: 72px 0;
 }
 
 .social-list {
@@ -438,12 +445,15 @@ header {
 }
 
 .app-name {
+    margin-bottom: 8px;
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
 
 .app-category {
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -454,16 +464,14 @@ header {
 /* footer start */
 
 .footer {
-    background-color: #2E2F42;
-}
-
-.footer-wrap {
     padding: 96px 0;
+    background-color: #2E2F42;
 }
 
 .footer-logo-wrap a {
     display: flex;
     justify-content: center;
+    margin-bottom: 16px;
 }
 
 .footer-studio {
@@ -471,8 +479,6 @@ header {
 }
 
 .footer-text {
-    margin-top: 16px;
-    margin-left: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
@@ -529,8 +535,6 @@ header {
     line-height: 2;
     letter-spacing: 0.04em;
     padding-left: 16px;
-    margin-left: 16px;
-    margin-right: 16px;
     margin-bottom: 16px;
     opacity: 0.3;
     border-radius: 4px;
@@ -838,6 +842,8 @@ input:checked+label .label-span {
     }
     
     .title-section {
+        padding-top: 112px;
+        padding-bottom: 112px;
         box-shadow: none;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/hero-tab-min.jpg);
         max-width: 768px;
@@ -850,10 +856,11 @@ input:checked+label .label-span {
         }
     }
     .title-site {
+        max-width: 496px;
+        margin-bottom: 36px;
         font-size: 56px;
         line-height: 1.1;
         text-align: center;
-        padding: 0 100px 36px 100px;
     }
     
     .modal {
@@ -900,7 +907,6 @@ input:checked+label .label-span {
     .footer-wrap {
         display: flex;
         flex-wrap: wrap;
-        padding: 96px 0;
         padding-left: 108px;
         column-gap: 24px;
     }
@@ -932,6 +938,9 @@ input:checked+label .label-span {
     .subscribe-text {
         justify-content: start;
         font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
     }
     .subscribe-form {
         display: flex;
@@ -1065,7 +1074,8 @@ input:checked+label .label-span {
 
     .title-section {
         max-width: 1440px;
-        height: 600px;
+        padding-top: 188px;
+        padding-bottom: 188px;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/hero-desk-min.jpg);
     }
     @media (min-resolution: 192dpi) {
@@ -1075,17 +1085,14 @@ input:checked+label .label-span {
         }
     }
     .title-site {
-        max-width: 496px;
-        padding: 0 0 48px 0;
+        margin-bottom: 48px;
     }
     .skills-section {
-        padding-top: 0;
-        padding-bottom: 0;
+        padding-top: 120px;
+        padding-bottom: 120px;
     }
     .skills-list {
         display: flex;
-        padding-top: 120px;
-        padding-bottom: 120px;
     }
     .skills-item {
         width: calc((100% - 3 * 24px) / 4);
@@ -1108,10 +1115,7 @@ input:checked+label .label-span {
         color: #2E2F42;
     }
     .team-section {
-        padding-bottom: 0;
-    }
-    .team-card {
-        margin-bottom: 120px;
+        padding: 120px 0;
     }
     .portfolio-section {
         padding: 120px 0;
@@ -1169,24 +1173,16 @@ input:checked+label .label-span {
         border-top: none;
     }
     .footer {
+        padding: 100px 0;
         background-color: #2E2F42;
     }
     .footer-wrap {
         justify-content: center;
-        padding: 96px 0;
         margin: 0 auto;
         column-gap: 0;
     }
-    .footer-logo-wrap {
-        
-    }
     .social {
         margin-left: 120px;
-    }
-    .social-title-footer {
-
-    }
-    .subscribe-text {
     }
     .subscribe-button {
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
